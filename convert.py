@@ -47,14 +47,6 @@ def convert_wunderlist_csv(filename):
         for i in out_tasks:
             writer.writerow(i)
 
-
-    # print lists_map
-
-    # print data.keys
-    # print len(tasks)
-    # print len(not_completed)
-    # print not_completed[0]
-
 if len(sys.argv) != 2:
     print("ERROR: no filename given")
     exit()
